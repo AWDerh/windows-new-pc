@@ -6,3 +6,4 @@ choco install -y
     GoogleChrome 7zip `
     python nodejs rust git github-desktop gh vscode notepadplusplus ` 
     vnc-viewer tightvnc `
+choco install drawio
