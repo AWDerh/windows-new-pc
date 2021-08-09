@@ -16,7 +16,7 @@ choco install -y python nodejs rust git github-desktop gh vscode notepadplusplus
 choco install -y vnc-viewer tightvnc
 choco install -y obs-studio openoffice
 choco install -y drawio
-choco install -y utorrent
+choco install -y qbittorrent
 
 git config --global user.email "abdul.derh@gmail.com"
 git config --global user.name "Abdul Derh"
