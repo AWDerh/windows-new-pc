@@ -11,12 +11,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install -y `
     GoogleChrome 7zip `
     python nodejs rust git github-desktop gh vscode notepadplusplus mobaxterm ` 
-    vnc-viewer tightvnc 
+    vnc-viewer tightvnc `
+    obs-studio openoffice `
     drawio `
-
-
-## Questionable Installs
-```
-choco install -y `
-    openoffice
-```
