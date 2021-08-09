@@ -11,6 +11,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ## Get Key Applications
 
 ```
+choco feature enable -n allowGlobalConfirmation
 choco install -y GoogleChrome 7zip google-backup-and-sync discord
 choco install -y python nodejs rust git github-desktop gh vscode notepadplusplus mobaxterm
 choco install -y vnc-viewer tightvnc
