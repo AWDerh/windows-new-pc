@@ -19,6 +19,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 ## Get Key Applications
+<<<<<<< HEAD
 
 ```
 choco install -y `
@@ -26,10 +27,22 @@ choco install -y `
     python nodejs rust git github-desktop gh vscode notepadplusplus mobaxterm `
     vnc-viewer tightvnc
     drawio `
+=======
+>>>>>>> 81b1036a86c25ce103bd540cf685e8cf8ea027b9
 
-
-## Questionable Installs
 ```
+choco feature enable -n allowGlobalConfirmation
+choco install -y GoogleChrome 7zip google-backup-and-sync discord
+choco install -y python nodejs rust git github-desktop gh vscode notepadplusplus mobaxterm
+choco install -y vnc-viewer tightvnc
+choco install -y obs-studio openoffice
+choco install -y drawio
+choco install -y qbittorrent
+
+git config --global user.email "abdul.derh@gmail.com"
+git config --global user.name "Abdul Derh"
+```
+<<<<<<< HEAD
 
 choco install -y `
 openoffice
@@ -37,3 +50,5 @@ openoffice
 ```
 
 ```
+=======
+>>>>>>> 81b1036a86c25ce103bd540cf685e8cf8ea027b9
