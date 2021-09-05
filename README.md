@@ -19,16 +19,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 ## Get Key Applications
-<<<<<<< HEAD
-
-```
-choco install -y `
-    GoogleChrome 7zip `
-    python nodejs rust git github-desktop gh vscode notepadplusplus mobaxterm `
-    vnc-viewer tightvnc
-    drawio `
-=======
->>>>>>> 81b1036a86c25ce103bd540cf685e8cf8ea027b9
 
 ```
 choco feature enable -n allowGlobalConfirmation
@@ -42,13 +32,3 @@ choco install -y qbittorrent
 git config --global user.email "abdul.derh@gmail.com"
 git config --global user.name "Abdul Derh"
 ```
-<<<<<<< HEAD
-
-choco install -y `
-openoffice
-
-```
-
-```
-=======
->>>>>>> 81b1036a86c25ce103bd540cf685e8cf8ea027b9
