@@ -2,6 +2,16 @@
 
 Scripts to quickly get going on a new Windows install.
 
+## Disable UAC
+
+😁
+
+## Enable Hibernate and Set it as Default Power Option
+
+Control Panel\Hardware and Sound\Power Options\System Settings
+Change What the Power Buttons Do
+Enable the Hibernate Option and change the power button
+
 ## Download Chocolatey
 
 ```
