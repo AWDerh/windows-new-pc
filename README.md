@@ -32,3 +32,9 @@ choco install -y qbittorrent
 git config --global user.email "abdul.derh@gmail.com"
 git config --global user.name "Abdul Derh"
 ```
+
+## Python configuration
+
+```
+python -m pip install pipenv pandas numpy matplotlib requests
+```
